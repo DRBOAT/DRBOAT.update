@@ -1,7 +1,7 @@
 {
   "version": "3.1.0",
   "package_url": "https://raw.githubusercontent.com/DRBOAT/DRBOAT.update/main/DR_BOAT_V3_1_RPi3.zip",
-  "sha256": "6cce181fe6f6ecfa035c6b3a109c0845eb859da188b79ac1cc42c7708c58e461",
+  "sha256": "a1d4fcf7c0e470d6c20b77314f9badc589ae6cf580508044b21e803777f7f0fb",
   "notes": [
     "Added Fleet List with 15 vessel profiles and ASD/Conventional vessel types.",
     "Added M/T SEMAIH, M/T AL FANCI and JAWAD 1 exact-coordinate OpenCPN GPX test markers.",
