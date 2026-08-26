@@ -1,0 +1,13 @@
+{
+  "version": "3.0.0",
+  "package_url": "https://raw.githubusercontent.com/DRBOAT/DRBOAT.update/main/DR_BOAT_V3_RPi3.zip",
+  "sha256": "47a2c3ea33bf9e3e4dcc8f444c8a23cb0e627e221393583a01bc7e8457f91364",
+  "notes": [
+    "Integrated OpenCPN X11 window inside DR.BOAT.",
+    "Compact Command Center with two camera panels and two tug telemetry panels.",
+    "Camera double-click focus view with OpenCPN mini chart and thruster telemetry.",
+    "Improved System Health and GitHub HTTPS update framework.",
+    "Maneuver logging and AI Training & Maneuver Library retained.",
+    "Pilot & Tug Master Training kept lightweight in V3."
+  ]
+}
