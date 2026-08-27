@@ -1,16 +1,19 @@
 {
-  "version": "3.2.0",
-  "package_url": "https://raw.githubusercontent.com/DRBOAT/DRBOAT.update/main/DR_BOAT_V3_2_RPi3.zip",
-  "sha256": "39006fbb587936ba05d32dd2fe66a250cc32f743408d9e21e5e30ea8b137285d",
-  "notes": [
-    "Pilot & Tug Master Training Simulator with live bird-eye vessel/tug motion.",
-    "Mina Zayed training scene with Satellite / Marine Chart visual modes.",
-    "Start Maneuver and Tugs Proceed to Secure Line workflow.",
-    "Ship Ahead / Stop / Astern and rudder controls.",
-    "Four tug positions: center lead bow, center lead aft, bow and quarter.",
-    "Tug clock-angle orders and Lean On / Slow / Half / Full power control.",
-    "Runtime recovery for missing fleet_markers.gpx.",
-    "Editable MASTER PROFILE per vessel.",
-    "Fleet List, JAWAD 1 FiFi, OpenCPN and maneuver library retained."
+  "version": "4.0.0",
+  "name": "Doctor Boat Control Marine Intelligence V4",
+  "package_url": "https://raw.githubusercontent.com/DRBOAT/DRBOAT.update/main/DR_BOAT_V4_RPi3.zip",
+  "sha256": "2abb913f8b35467d46c9085ef9c01b56ddeded3cb5059a9314216896ff15c23c",
+  "release_notes": [
+    "New V4 shore-control interface",
+    "Resizable marine-grade dashboard panels",
+    "Jawad 1 telemetry without generators",
+    "Engine running hours and L/h consumption",
+    "Professional propulsion lever and rudder control",
+    "FiFi pump and 360-degree fire monitor control",
+    "360-degree LiDAR plan view",
+    "Forward and aft line release controls",
+    "Connections/System Status drawer",
+    "OpenCPN launch integration",
+    "Raspberry Pi 3 lightweight build"
   ]
 }
