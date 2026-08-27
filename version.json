@@ -1,14 +1,16 @@
 {
-  "version": "3.1.0",
-  "package_url": "https://raw.githubusercontent.com/DRBOAT/DRBOAT.update/main/DR_BOAT_V3_1_RPi3.zip",
-  "sha256": "a1d4fcf7c0e470d6c20b77314f9badc589ae6cf580508044b21e803777f7f0fb",
+  "version": "3.2.0",
+  "package_url": "https://raw.githubusercontent.com/DRBOAT/DRBOAT.update/main/DR_BOAT_V3_2_RPi3.zip",
+  "sha256": "39006fbb587936ba05d32dd2fe66a250cc32f743408d9e21e5e30ea8b137285d",
   "notes": [
-    "Added Fleet List with 15 vessel profiles and ASD/Conventional vessel types.",
-    "Added M/T SEMAIH, M/T AL FANCI and JAWAD 1 exact-coordinate OpenCPN GPX test markers.",
-    "Fixed camera-focus/OpenCPN desktop toolbar escape by keeping OpenCPN embedded and using a live mini snapshot.",
-    "Compressed Command Center so camera, OpenCPN and both thruster panels fit on one display.",
-    "Added per-engine and generator fuel rate fields in L/h and integrated total maneuver fuel in liters.",
-    "Added provisional maneuver performance score in the Maneuver Library.",
-    "Added JAWAD 1 dedicated FiFi / fire-fighting UI and Conventional propulsion presentation."
+    "Pilot & Tug Master Training Simulator with live bird-eye vessel/tug motion.",
+    "Mina Zayed training scene with Satellite / Marine Chart visual modes.",
+    "Start Maneuver and Tugs Proceed to Secure Line workflow.",
+    "Ship Ahead / Stop / Astern and rudder controls.",
+    "Four tug positions: center lead bow, center lead aft, bow and quarter.",
+    "Tug clock-angle orders and Lean On / Slow / Half / Full power control.",
+    "Runtime recovery for missing fleet_markers.gpx.",
+    "Editable MASTER PROFILE per vessel.",
+    "Fleet List, JAWAD 1 FiFi, OpenCPN and maneuver library retained."
   ]
 }
