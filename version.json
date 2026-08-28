@@ -1,20 +1,17 @@
 {
-  "version": "5.3.0",
-  "name": "Doctor Boat Control Marine Intelligence V5.3",
-  "package_url": "https://raw.githubusercontent.com/DRBOAT/DRBOAT.update/main/DR_BOAT_V5_3_RPi3.zip",
-  "sha256": "00aab1bfde774a40accfbfe0da7b0eefa2725304c6bbcfd92b9de474df9ff7d2",
+  "version": "5.4.0",
+  "name": "Doctor Boat Control Marine Intelligence V5.4",
+  "package_url": "https://raw.githubusercontent.com/DRBOAT/DRBOAT.update/main/DR_BOAT_V5_4_RPi3.zip",
+  "sha256": "81879d957d9d5d6125a03976b3e65ff022177ad649ab34d4fcb7801b634aed3d",
   "release_notes": [
-    "Choose 1 to 4 active tugs per maneuver.",
-    "Any tug can be assigned to any securing station.",
-    "Each tug supports STOP/FOLLOW, PULL and PUSH modes.",
-    "Pull levels: Tight Line, Slow Tight Line, Half Tight Line, Full Tight Line.",
-    "Push levels: Lean On, Mini Push, Slow Push, Half Power Push, Full Power Push.",
-    "Clock positions are relative to vessel heading; 12 o'clock is dead ahead.",
-    "Center Lead Bow and Aft follow their vessel fairleads dynamically.",
-    "Tug forces affect vessel translation and rotation.",
-    "Solid training quays prevent the vessel from crossing berth boundaries.",
-    "Live HDG, SOG and ROT display added.",
-    "Slower maneuver motion and cleaner chart labels.",
-    "Mouse control retained now; command structure prepared for future voice mapping."
+    "Full Ahead own-ship speed tuned to approximately 10 knots.",
+    "Compact ship propulsion and rudder controls moved onto the chart at the lower-right.",
+    "Faster tug approach and clock-position response.",
+    "Stronger progressive PULL and PUSH effects with clearer vessel translation and rotation.",
+    "PUSH tugs reach the hull/fender contact position before applying force.",
+    "New pre-maneuver Technical Bollard Pull Assessment dashboard.",
+    "Assessment assumes 50,000 t displacement and 50 t bollard pull per selected tug in this phase.",
+    "Assessment displays windage area, underwater lateral area, wind/current loads, required BP, available BP and margin.",
+    "Desktop shortcuts now use the stable ~/.local/bin/drboat launcher."
   ]
 }
