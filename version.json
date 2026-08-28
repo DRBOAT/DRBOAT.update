@@ -1,24 +1,17 @@
 {
-  "version": "5.1.0",
-  "name": "Doctor Boat Control Marine Intelligence V5.1",
-  "package_url": "https://raw.githubusercontent.com/DRBOAT/DRBOAT.update/main/DR_BOAT_V5_1_RPi3.zip",
-  "sha256": "7ceb70d90bead1c6b816fdf8d8e6d6c5f1e9bcd6ff9d31199d22a88be378a4e6",
+  "version": "5.2.0",
+  "name": "Doctor Boat Control Marine Intelligence V5.2",
+  "package_url": "https://raw.githubusercontent.com/DRBOAT/DRBOAT.update/main/DR_BOAT_V5_2_RPi3.zip",
+  "sha256": "4e3298df82d19c401072e254cad8b6418a362085b3fa0d8f1b66b49fb03f2a67",
   "release_notes": [
-    "Removed READY and EMERGENCY STOP from the global header.",
-    "Removed Propulsion Manager from the main navigation.",
-    "Added responsive scrolling and resizable windows for smaller Raspberry Pi displays.",
-    "Training simulator now supports mouse-wheel zoom, drag-to-pan and double-click reset view.",
-    "Moved Center Lead Bow/Aft tug stations farther from the vessel and separated tug-station markers from vessel securing points.",
-    "Tow lines now run from each tug to the correct attachment point on the vessel.",
-    "Improved securing-point label spacing and reduced overlap.",
-    "Added distinct simple target shapes for Container, Bulk Carrier, Tanker, General Cargo and Jack-up Barge.",
-    "Added TUG & BARGE target with rectangular barge, Y-bridle and towing tug.",
-    "Added a simplified Mina Zayed-inspired harbour training map with quays, breakwaters, channel and buoy line.",
-    "Updated UI toward a cleaner AI marine monitoring style.",
-    "Desktop shortcut automatically refreshes to the current V5.1 name, path and icon."
-  ],
-  "notes": [
-    "V5.1 UI and training simulator update.",
-    "The Mina Zayed training map is a simplified representation and is not an official nautical chart for navigation."
+    "Interactive tug-force simulator: center-lead tugs orbit the securing point by clock order and apply towing force and turning moment to the target vessel.",
+    "Side pusher tugs approach stand-off hull stations without crossing the vessel and apply directional pushing forces.",
+    "Target vessel now responds with translation, rotation, inertia and damping instead of visual-only tug movement.",
+    "Dynamic Command Center unit selection from the 15-vessel fleet, up to four displayed units.",
+    "Selected unit cards drive camera, telemetry and operator controls; fixed DR BOAT 1/2 cards removed.",
+    "Added per-unit Push-to-Talk operator control placeholder for future vessel audio hardware integration.",
+    "JAWAD 1 conventional profile hides azimuth thruster gauges and keeps twin engine / hydraulic rudder controls.",
+    "JAWAD 1 360-degree LiDAR plan view upgraded to animated top-view boat, quay and rotating scan beam.",
+    "Responsive scrollable pages, zoom/pan training map, six tug stations, Tug & Barge target, and desktop launcher auto-versioning retained."
   ]
 }
