@@ -1,19 +1,24 @@
 {
-  "version": "4.0.0",
-  "name": "Doctor Boat Control Marine Intelligence V4",
-  "package_url": "https://raw.githubusercontent.com/DRBOAT/DRBOAT.update/main/DR_BOAT_V4_RPi3.zip",
-  "sha256": "2abb913f8b35467d46c9085ef9c01b56ddeded3cb5059a9314216896ff15c23c",
+  "version": "5.1.0",
+  "name": "Doctor Boat Control Marine Intelligence V5.1",
+  "package_url": "https://raw.githubusercontent.com/DRBOAT/DRBOAT.update/main/DR_BOAT_V5_1_RPi3.zip",
+  "sha256": "7ceb70d90bead1c6b816fdf8d8e6d6c5f1e9bcd6ff9d31199d22a88be378a4e6",
   "release_notes": [
-    "New V4 shore-control interface",
-    "Resizable marine-grade dashboard panels",
-    "Jawad 1 telemetry without generators",
-    "Engine running hours and L/h consumption",
-    "Professional propulsion lever and rudder control",
-    "FiFi pump and 360-degree fire monitor control",
-    "360-degree LiDAR plan view",
-    "Forward and aft line release controls",
-    "Connections/System Status drawer",
-    "OpenCPN launch integration",
-    "Raspberry Pi 3 lightweight build"
+    "Removed READY and EMERGENCY STOP from the global header.",
+    "Removed Propulsion Manager from the main navigation.",
+    "Added responsive scrolling and resizable windows for smaller Raspberry Pi displays.",
+    "Training simulator now supports mouse-wheel zoom, drag-to-pan and double-click reset view.",
+    "Moved Center Lead Bow/Aft tug stations farther from the vessel and separated tug-station markers from vessel securing points.",
+    "Tow lines now run from each tug to the correct attachment point on the vessel.",
+    "Improved securing-point label spacing and reduced overlap.",
+    "Added distinct simple target shapes for Container, Bulk Carrier, Tanker, General Cargo and Jack-up Barge.",
+    "Added TUG & BARGE target with rectangular barge, Y-bridle and towing tug.",
+    "Added a simplified Mina Zayed-inspired harbour training map with quays, breakwaters, channel and buoy line.",
+    "Updated UI toward a cleaner AI marine monitoring style.",
+    "Desktop shortcut automatically refreshes to the current V5.1 name, path and icon."
+  ],
+  "notes": [
+    "V5.1 UI and training simulator update.",
+    "The Mina Zayed training map is a simplified representation and is not an official nautical chart for navigation."
   ]
 }
