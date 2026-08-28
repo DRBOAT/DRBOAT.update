@@ -1,17 +1,20 @@
 {
-  "version": "5.2.0",
-  "name": "Doctor Boat Control Marine Intelligence V5.2",
-  "package_url": "https://raw.githubusercontent.com/DRBOAT/DRBOAT.update/main/DR_BOAT_V5_2_RPi3.zip",
-  "sha256": "4e3298df82d19c401072e254cad8b6418a362085b3fa0d8f1b66b49fb03f2a67",
+  "version": "5.3.0",
+  "name": "Doctor Boat Control Marine Intelligence V5.3",
+  "package_url": "https://raw.githubusercontent.com/DRBOAT/DRBOAT.update/main/DR_BOAT_V5_3_RPi3.zip",
+  "sha256": "00aab1bfde774a40accfbfe0da7b0eefa2725304c6bbcfd92b9de474df9ff7d2",
   "release_notes": [
-    "Interactive tug-force simulator: center-lead tugs orbit the securing point by clock order and apply towing force and turning moment to the target vessel.",
-    "Side pusher tugs approach stand-off hull stations without crossing the vessel and apply directional pushing forces.",
-    "Target vessel now responds with translation, rotation, inertia and damping instead of visual-only tug movement.",
-    "Dynamic Command Center unit selection from the 15-vessel fleet, up to four displayed units.",
-    "Selected unit cards drive camera, telemetry and operator controls; fixed DR BOAT 1/2 cards removed.",
-    "Added per-unit Push-to-Talk operator control placeholder for future vessel audio hardware integration.",
-    "JAWAD 1 conventional profile hides azimuth thruster gauges and keeps twin engine / hydraulic rudder controls.",
-    "JAWAD 1 360-degree LiDAR plan view upgraded to animated top-view boat, quay and rotating scan beam.",
-    "Responsive scrollable pages, zoom/pan training map, six tug stations, Tug & Barge target, and desktop launcher auto-versioning retained."
+    "Choose 1 to 4 active tugs per maneuver.",
+    "Any tug can be assigned to any securing station.",
+    "Each tug supports STOP/FOLLOW, PULL and PUSH modes.",
+    "Pull levels: Tight Line, Slow Tight Line, Half Tight Line, Full Tight Line.",
+    "Push levels: Lean On, Mini Push, Slow Push, Half Power Push, Full Power Push.",
+    "Clock positions are relative to vessel heading; 12 o'clock is dead ahead.",
+    "Center Lead Bow and Aft follow their vessel fairleads dynamically.",
+    "Tug forces affect vessel translation and rotation.",
+    "Solid training quays prevent the vessel from crossing berth boundaries.",
+    "Live HDG, SOG and ROT display added.",
+    "Slower maneuver motion and cleaner chart labels.",
+    "Mouse control retained now; command structure prepared for future voice mapping."
   ]
 }
