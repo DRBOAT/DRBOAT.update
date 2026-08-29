@@ -1,14 +1,13 @@
 {
-  "version": "6.0.0",
-  "name": "Doctor Boat Control Marine Intelligence V6.0",
-  "package_url": "https://raw.githubusercontent.com/DRBOAT/DRBOAT.update/main/DR_BOAT_V6_0_RPi3.zip",
-  "sha256": "c45289836189a64a35a834d27c1b1e118325883db59854fe08767660eba98269",
+  "version": "7.0.0",
+  "name": "Doctor Boat Control Marine Intelligence V7.0",
+  "package_url": "https://raw.githubusercontent.com/DRBOAT/DRBOAT.update/main/DR_BOAT_V7_0_RPi3.zip",
+  "sha256": "e3c845ddb5e5d23c2d06f2f19c1057505a63baec092040d65d0f3345237be013",
   "release_notes": [
-    "Built-in DR Boat Vector Chart Manager.",
-    "S-57 ENC vector charts can be loaded and rendered inside DR Boat through GDAL conversion.",
-    "GeoJSON vector charts render directly on the UTM map.",
-    "Route, Track, Measure Distance and vessel overlays remain available above chart layers.",
-    "CM93 databases are detected and indexed; native CM93 decoding is not falsely simulated.",
-    "Installer adds gdal-bin and preserves positioning, routes and track history."
+    "First-vector-chart milestone: S-57 layers are extracted with Python GDAL and rendered inside DR Boat.",
+    "Chart Manager can load a selected S-57/GeoJSON chart by button or double click.",
+    "Map pan, zoom and Fit Chart are active.",
+    "Built-in demo vector chart verifies the renderer without external chart files; demo is not for navigation.",
+    "CM93 is still detected but not misrepresented as decoded."
   ]
 }
