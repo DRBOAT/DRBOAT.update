@@ -1,13 +1,13 @@
 {
-  "version": "7.1.0",
-  "name": "Doctor Boat Control Marine Intelligence V7.1",
-  "package_url": "https://raw.githubusercontent.com/DRBOAT/DRBOAT.update/main/DR_BOAT_V7_1_RPi3.zip",
-  "sha256": "31f89d91e3a003501250660ac3545ff7f26b26cb015e83e545537fc8f98c720b",
+  "version": "8.0.0",
+  "name": "Doctor Boat Control Marine Intelligence V8.0",
+  "package_url": "https://raw.githubusercontent.com/DRBOAT/DRBOAT.update/main/DR_BOAT_V8_0_RPi3.zip",
+  "sha256": "451cb008e0c99ea3e086daa50c13a7b380fb47b64b9625f5ef1aa27d3251e84f",
   "release_notes": [
-    "Built-in world base map added for immediate land/sea orientation.",
-    "WORLD MAP button loads the base map without any chart download.",
-    "Base map is explicitly orientation-only and not a nautical chart.",
-    "S-57 ENC remains the real vector nautical chart format supported by the chart engine.",
-    "CM93 databases remain detected/indexed pending a dedicated decoder."
+    "S-57 ENC loader rebuilt to enumerate and render all GDAL S-57 object-class layers.",
+    "Basic maritime portrayal for depth areas, dredged areas, land/built-up areas and coastline.",
+    "Zoom, pan, fit chart, UTM, route and track overlays retained.",
+    "World orientation base map retained.",
+    "CM93 remains indexed pending a dedicated decoder."
   ]
 }
