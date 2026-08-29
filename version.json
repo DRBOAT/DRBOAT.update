@@ -1,14 +1,14 @@
 {
-  "version": "5.5.0",
-  "name": "Doctor Boat Control Marine Intelligence V5.5",
-  "package_url": "https://raw.githubusercontent.com/DRBOAT/DRBOAT.update/main/DR_BOAT_V5_5_RPi3.zip",
-  "sha256": "ca5cd5de08b21d7a98854a7b1b46fb2d58f40cfad8ecba87f6469a53efeb0559",
+  "version": "5.6.0",
+  "name": "Doctor Boat Control Marine Intelligence V5.6",
+  "package_url": "https://raw.githubusercontent.com/DRBOAT/DRBOAT.update/main/DR_BOAT_V5_6_RPi3.zip",
+  "sha256": "ef75f50d2d95bbdceb618e0ee6a63641ed48712006a66acfc737d4664f08ffd6",
   "release_notes": [
-    "New Doctor Boat AI Positioning System dashboard.",
-    "Independent UTM grid with Easting, Northing, Zone and heading display.",
-    "Add Chart Directory for local OpenCPN-compatible chart-file folders without launching OpenCPN.",
-    "GNSS, IMU, INS, Log Speed, LiDAR, Vision, Radar and AI Positioning System source panels.",
-    "GNSS source panel prepared for GPS, Galileo, GLONASS and BeiDou status.",
-    "Final fused-position panel prepared for UTM, Lat/Lon, speed, heading, confidence and active positioning source."
+    "DR Boat AI Positioning System refined.",
+    "Larger map and compact sensor panel with maximize mode.",
+    "Zoom, Measure Distance, Draw Route and Track History added.",
+    "Route legs show distance in metres/NM and bearing.",
+    "UTM to Latitude/Longitude conversion enabled.",
+    "CM93 directory detection/indexing improved; native CM93 chart rendering remains a later decoder layer."
   ]
 }
