@@ -1,17 +1,14 @@
 {
-  "version": "5.4.0",
-  "name": "Doctor Boat Control Marine Intelligence V5.4",
-  "package_url": "https://raw.githubusercontent.com/DRBOAT/DRBOAT.update/main/DR_BOAT_V5_4_RPi3.zip",
-  "sha256": "81879d957d9d5d6125a03976b3e65ff022177ad649ab34d4fcb7801b634aed3d",
+  "version": "5.5.0",
+  "name": "Doctor Boat Control Marine Intelligence V5.5",
+  "package_url": "https://raw.githubusercontent.com/DRBOAT/DRBOAT.update/main/DR_BOAT_V5_5_RPi3.zip",
+  "sha256": "ca5cd5de08b21d7a98854a7b1b46fb2d58f40cfad8ecba87f6469a53efeb0559",
   "release_notes": [
-    "Full Ahead own-ship speed tuned to approximately 10 knots.",
-    "Compact ship propulsion and rudder controls moved onto the chart at the lower-right.",
-    "Faster tug approach and clock-position response.",
-    "Stronger progressive PULL and PUSH effects with clearer vessel translation and rotation.",
-    "PUSH tugs reach the hull/fender contact position before applying force.",
-    "New pre-maneuver Technical Bollard Pull Assessment dashboard.",
-    "Assessment assumes 50,000 t displacement and 50 t bollard pull per selected tug in this phase.",
-    "Assessment displays windage area, underwater lateral area, wind/current loads, required BP, available BP and margin.",
-    "Desktop shortcuts now use the stable ~/.local/bin/drboat launcher."
+    "New Doctor Boat AI Positioning System dashboard.",
+    "Independent UTM grid with Easting, Northing, Zone and heading display.",
+    "Add Chart Directory for local OpenCPN-compatible chart-file folders without launching OpenCPN.",
+    "GNSS, IMU, INS, Log Speed, LiDAR, Vision, Radar and AI Positioning System source panels.",
+    "GNSS source panel prepared for GPS, Galileo, GLONASS and BeiDou status.",
+    "Final fused-position panel prepared for UTM, Lat/Lon, speed, heading, confidence and active positioning source."
   ]
 }
