@@ -1,13 +1,14 @@
 {
-  "version": "8.0.0",
-  "name": "Doctor Boat Control Marine Intelligence V8.0",
-  "package_url": "https://raw.githubusercontent.com/DRBOAT/DRBOAT.update/main/DR_BOAT_V8_0_RPi3.zip",
-  "sha256": "451cb008e0c99ea3e086daa50c13a7b380fb47b64b9625f5ef1aa27d3251e84f",
+  "version": "8.2.0",
+  "name": "Doctor Boat Control Marine Intelligence V8.2",
+  "package_url": "https://raw.githubusercontent.com/DRBOAT/DRBOAT.update/main/DR_BOAT_V8_2_RPi3.zip",
+  "sha256": "949c2d4a2536ad75dc344c1131b9933bf3e46e7f0efbbeb93c43d54be2290cb2",
   "release_notes": [
-    "S-57 ENC loader rebuilt to enumerate and render all GDAL S-57 object-class layers.",
-    "Basic maritime portrayal for depth areas, dredged areas, land/built-up areas and coastline.",
-    "Zoom, pan, fit chart, UTM, route and track overlays retained.",
-    "World orientation base map retained.",
-    "CM93 remains indexed pending a dedicated decoder."
+    "Real Natural Earth vector world base map replaces the schematic demo map.",
+    "World base map opens automatically in AI Positioning System.",
+    "World map supports zoom, pan and right-click coordinate readout.",
+    "Global UTM zone grid overlays the world map.",
+    "S-57 ENC remains the real nautical vector overlay path in local UTM mode.",
+    "CM93 remains detected/indexed pending its dedicated decoder/renderer."
   ]
 }
