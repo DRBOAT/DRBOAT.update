@@ -1,14 +1,14 @@
 {
-  "version": "5.6.0",
-  "name": "Doctor Boat Control Marine Intelligence V5.6",
-  "package_url": "https://raw.githubusercontent.com/DRBOAT/DRBOAT.update/main/DR_BOAT_V5_6_RPi3.zip",
-  "sha256": "ef75f50d2d95bbdceb618e0ee6a63641ed48712006a66acfc737d4664f08ffd6",
+  "version": "6.0.0",
+  "name": "Doctor Boat Control Marine Intelligence V6.0",
+  "package_url": "https://raw.githubusercontent.com/DRBOAT/DRBOAT.update/main/DR_BOAT_V6_0_RPi3.zip",
+  "sha256": "c45289836189a64a35a834d27c1b1e118325883db59854fe08767660eba98269",
   "release_notes": [
-    "DR Boat AI Positioning System refined.",
-    "Larger map and compact sensor panel with maximize mode.",
-    "Zoom, Measure Distance, Draw Route and Track History added.",
-    "Route legs show distance in metres/NM and bearing.",
-    "UTM to Latitude/Longitude conversion enabled.",
-    "CM93 directory detection/indexing improved; native CM93 chart rendering remains a later decoder layer."
+    "Built-in DR Boat Vector Chart Manager.",
+    "S-57 ENC vector charts can be loaded and rendered inside DR Boat through GDAL conversion.",
+    "GeoJSON vector charts render directly on the UTM map.",
+    "Route, Track, Measure Distance and vessel overlays remain available above chart layers.",
+    "CM93 databases are detected and indexed; native CM93 decoding is not falsely simulated.",
+    "Installer adds gdal-bin and preserves positioning, routes and track history."
   ]
 }
