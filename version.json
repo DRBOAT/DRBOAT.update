@@ -1,13 +1,13 @@
 {
-  "version": "7.0.0",
-  "name": "Doctor Boat Control Marine Intelligence V7.0",
-  "package_url": "https://raw.githubusercontent.com/DRBOAT/DRBOAT.update/main/DR_BOAT_V7_0_RPi3.zip",
-  "sha256": "e3c845ddb5e5d23c2d06f2f19c1057505a63baec092040d65d0f3345237be013",
+  "version": "7.1.0",
+  "name": "Doctor Boat Control Marine Intelligence V7.1",
+  "package_url": "https://raw.githubusercontent.com/DRBOAT/DRBOAT.update/main/DR_BOAT_V7_1_RPi3.zip",
+  "sha256": "31f89d91e3a003501250660ac3545ff7f26b26cb015e83e545537fc8f98c720b",
   "release_notes": [
-    "First-vector-chart milestone: S-57 layers are extracted with Python GDAL and rendered inside DR Boat.",
-    "Chart Manager can load a selected S-57/GeoJSON chart by button or double click.",
-    "Map pan, zoom and Fit Chart are active.",
-    "Built-in demo vector chart verifies the renderer without external chart files; demo is not for navigation.",
-    "CM93 is still detected but not misrepresented as decoded."
+    "Built-in world base map added for immediate land/sea orientation.",
+    "WORLD MAP button loads the base map without any chart download.",
+    "Base map is explicitly orientation-only and not a nautical chart.",
+    "S-57 ENC remains the real vector nautical chart format supported by the chart engine.",
+    "CM93 databases remain detected/indexed pending a dedicated decoder."
   ]
 }
