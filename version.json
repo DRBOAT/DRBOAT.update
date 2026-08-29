@@ -1,14 +1,22 @@
 {
-  "version": "8.2.0",
-  "name": "Doctor Boat Control Marine Intelligence V8.2",
-  "package_url": "https://raw.githubusercontent.com/DRBOAT/DRBOAT.update/main/DR_BOAT_V8_2_RPi3.zip",
-  "sha256": "949c2d4a2536ad75dc344c1131b9933bf3e46e7f0efbbeb93c43d54be2290cb2",
-  "release_notes": [
-    "Real Natural Earth vector world base map replaces the schematic demo map.",
-    "World base map opens automatically in AI Positioning System.",
-    "World map supports zoom, pan and right-click coordinate readout.",
-    "Global UTM zone grid overlays the world map.",
-    "S-57 ENC remains the real nautical vector overlay path in local UTM mode.",
-    "CM93 remains detected/indexed pending its dedicated decoder/renderer."
+  "version": "8.3.0",
+  "platform": "Raspberry Pi 3 / OpenPlotter",
+  "package": "DR_BOAT_V8_3_RPi3.zip",
+  "sha256": "e938acc33cabe8f3fd52da56a47ade8494b27ce641c64b37b54490906d75c2c1",
+  "highlights": [
+    "Permanent world vector base map with ENC overlays",
+    "Mina Zayed fixed start position until GNSS input",
+    "RECENTER/follow-vessel navigation behavior",
+    "NORTH UP / HEAD UP / COURSE UP display modes",
+    "UTM grid remains geographically registered",
+    "S-57 .001/.002 update files hidden from selection",
+    "One Doctor Boat desktop launcher only",
+    "GNSS input hook ready for receiver integration"
+  ],
+  "limitations": [
+    "Research/prototype navigation display; not type-approved ECDIS",
+    "S-57 portrayal is not full IHO S-52 yet",
+    "S-63 decryption/licensing is not implemented",
+    "CM93 native decoding is not implemented"
   ]
 }
