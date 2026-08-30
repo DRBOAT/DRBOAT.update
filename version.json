@@ -1,6 +1,6 @@
 {
   "version": "9.2.0",
-  "package_url": "https://github.com/DRBOAT/DRBOAT.update/releases/download/v9.2.0/DR_BOAT_V9_2_RPi3.zip",
+  "package_url": "https://raw.githubusercontent.com/DRBOAT/DRBOAT.update/main/DR_BOAT_V9_2_RPi3.zip",
   "sha256": "3c09b81f78ae16c6d481279fab0283ffc9c0054d77aae18b7b2cf8bdb4833373",
-  "notes": "Training simulator professional UI update: interactive Mina Zayed zoom/pan, live sea texture, compact metrics, cycle sim speed, tug clock dial, slower tug approach, pivot-point reference, editable wind/underwater areas, clean scenario launcher. Official berth numbers are intentionally not fabricated pending authoritative geometry."
+  "notes": "Training simulator professional UI update"
 }
