@@ -1,24 +1,6 @@
 {
-  "version": "9.1.0",
-  "platform": "Raspberry Pi 3 / OpenPlotter",
-  "package": "DR_BOAT_V9_1_RPi3.zip",
-  "package_url": "https://raw.githubusercontent.com/DRBOAT/DRBOAT.update/main/DR_BOAT_V9_1_RPi3.zip",
-  "sha256": "2adf8db91a3709b13f50c76b31a223b95388056c3c28c0c170c41a66978e270e",
-  "highlights": [
-    "Training Simulator title updated to V9.1",
-    "Compact HDG/SOG/ROT strip above ship controls",
-    "Mina Zayed training map with Satellite / Hybrid / Marine reference modes",
-    "Gradual vessel engine-order speeds and inertia",
-    "More realistic tug proceed-to-secure movement",
-    "Whole-simulation x1 to x5 time acceleration",
-    "Editable live bollard-pull calculator with wind/current/displacement/tug BP",
-    "Voice Orders command-mode foundation while retaining mouse control",
-    "V9.0.1 full-screen EXIT FULL / Esc / F11 hotfix retained"
-  ],
-  "limitations": [
-    "Training physics are simplified and not a certified ship-handling simulator",
-    "Training online maps are reference layers, not official ENC",
-    "Voice Orders currently includes UI/parser foundation; live microphone speech recognition requires microphone/STT integration",
-    "Autopilot remains simulation/calibration only with no motor-controller output"
-  ]
+  "version": "9.2.0",
+  "package_url": "https://github.com/DRBOAT/DRBOAT.update/releases/download/v9.2.0/DR_BOAT_V9_2_RPi3.zip",
+  "sha256": "3c09b81f78ae16c6d481279fab0283ffc9c0054d77aae18b7b2cf8bdb4833373",
+  "notes": "Training simulator professional UI update: interactive Mina Zayed zoom/pan, live sea texture, compact metrics, cycle sim speed, tug clock dial, slower tug approach, pivot-point reference, editable wind/underwater areas, clean scenario launcher. Official berth numbers are intentionally not fabricated pending authoritative geometry."
 }
