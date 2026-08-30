@@ -1,8 +1,8 @@
 {
-  "version": "9.3.0",
+  "version": "9.4.0",
   "platform": "Raspberry Pi 3 / OpenPlotter",
-  "package": "DR_BOAT_V9_3_RPi3.zip",
-  "package_url": "https://raw.githubusercontent.com/DRBOAT/DRBOAT.update/main/DR_BOAT_V9_3_RPi3.zip",
-  "sha256": "cdfbb9e244959a118d5017dd74392f460f5a82894539786fb30e573a3b981ba9",
-  "notes": "Training simulator scale/tug-lead update: true LOA/beam chart scaling for vessel/tugs; towlines attach directly to hull border with external securing dots removed; fixed clock-angle sectors for all six lead positions; compact right control rail; subtle vessel/tug wake effects; channel-centre start reference; existing zoom/pan, x1-x5 time acceleration, bollard-pull calculator, pivot point and voice-order foundation retained. Exact official Mina Zayed berth geometry is not fabricated; current quay collision geometry remains a training approximation pending authoritative data."
+  "package": "DR_BOAT_V9_4_RPi3.zip",
+  "package_url": "https://raw.githubusercontent.com/DRBOAT/DRBOAT.update/main/DR_BOAT_V9_4_RPi3.zip",
+  "sha256": "5c94e5d9ed326e46acb4dc0d98204cf6ccf865d7b9a86cb500b0ae390f2ca0da",
+  "notes": "Clean simulator renderer rebuild: live-map-first scene; z15 geographic vessel/tug scale; legacy red/green/yellow markers, cyan debug line, quay debug rectangles and pivot debug dot removed; towlines attach directly to hull border; greater tug stand-off; fixed six lead clock sectors with only allowed clock hours exposed; compact right rail and ship control; duplicate tug-count controls removed; subtle Pi3-friendly sea/wake retained. Exact Z15 and official Mina Zayed berth geometry remain pending authoritative chart data and are not fabricated."
 }
