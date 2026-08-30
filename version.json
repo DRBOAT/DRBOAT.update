@@ -1,21 +1,22 @@
 {
-  "version": "8.3.0",
+  "version": "8.4.0",
   "platform": "Raspberry Pi 3 / OpenPlotter",
-  "package": "DR_BOAT_V8_3_RPi3.zip",
-  "package_url": "https://raw.githubusercontent.com/DRBOAT/DRBOAT.update/main/DR_BOAT_V8_3_RPi3.zip",
-  "sha256": "e938acc33cabe8f3fd52da56a47ade8494b27ce641c64b37b54490906d75c2c1",
+  "package": "DR_BOAT_V8_4_RPi3.zip",
+  "package_url": "https://raw.githubusercontent.com/DRBOAT/DRBOAT.update/main/DR_BOAT_V8_4_RPi3.zip",
+  "sha256": "74234d4f8dc95f5997601c4e40b19473434fa380b8d3ab903bd4fba63bcfd498",
   "highlights": [
-    "Permanent world vector base map with ENC overlay",
-    "Mina Zayed fixed start position until GNSS input",
-    "RECENTER/follow-vessel navigation behaviour",
-    "NORTH UP / HEAD UP / COURSE UP display modes",
-    "UTM grid remains geographically registered",
-    "S-57 .001/.002 update files hidden from selection",
-    "One Doctor Boat desktop launcher only",
-    "GNSS input hook ready for receiver integration"
+    "Professional compact C map toolbar and right tool rail",
+    "Dense local UTM grid removed",
+    "OpenCPN-inspired vessel icon with GNSS health colour",
+    "Yellow vessel track",
+    "Live NMEA0183 UDP GNSS input on port 10110 with 3-second loss timeout",
+    "GGA satellite count and HDOP display when available",
+    "VECTOR / SATELLITE / HYBRID / MARINE map layers",
+    "Esri World Imagery and OpenSeaMap optional online reference layers"
   ],
   "limitations": [
     "Research/prototype navigation display; not type-approved ECDIS",
+    "Online map layers require internet and are reference layers, not official ENC",
     "S-57 portrayal is not full IHO S-52 yet",
     "S-63 decryption/licensing is not implemented",
     "CM93 native decoding is not implemented"
