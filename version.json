@@ -1,29 +1,24 @@
 {
-  "version": "9.0.0",
+  "version": "9.1.0",
   "platform": "Raspberry Pi 3 / OpenPlotter",
-  "package": "DR_BOAT_V9_0_RPi3.zip",
-  "package_url": "https://raw.githubusercontent.com/DRBOAT/DRBOAT.update/main/DR_BOAT_V9_0_RPi3.zip",
-  "sha256": "fd7add2d9421f9458c9e8b7de454dfd8e18cad263a73864d604c201da96be022",
+  "package": "DR_BOAT_V9_1_RPi3.zip",
+  "package_url": "https://raw.githubusercontent.com/DRBOAT/DRBOAT.update/main/DR_BOAT_V9_1_RPi3.zip",
+  "sha256": "2adf8db91a3709b13f50c76b31a223b95388056c3c28c0c170c41a66978e270e",
   "highlights": [
-    "Active Route context menu with Activate / Deactivate / Follow / Reverse / Properties",
-    "Active route turns red and enables a live ETA / TTG / DTW / BTW / XTE navigation strip using actual GNSS speed",
-    "True full-screen navigation mode with Esc exit",
-    "DAY / DUSK / NIGHT / NIGHT RED display palettes",
-    "Higher-rate vessel heading animation driven directly by incoming HDT sentences",
-    "Professional own-ship symbol with heading vector, range rings and EBL/VRM",
-    "LiDAR 360-degree 200 m simulation layer ready for future real-sensor adapter",
-    "AI Navigation foundation panel",
-    "Autopilot heading-hold and calibration foundation with hardware output locked",
-    "MOB, anchor alert and compact navigation warning strip",
-    "AIS CPA/TCPA warning integration"
+    "Training Simulator title updated to V9.1",
+    "Compact HDG/SOG/ROT strip above ship controls",
+    "Mina Zayed training map with Satellite / Hybrid / Marine reference modes",
+    "Gradual vessel engine-order speeds and inertia",
+    "More realistic tug proceed-to-secure movement",
+    "Whole-simulation x1 to x5 time acceleration",
+    "Editable live bollard-pull calculator with wind/current/displacement/tug BP",
+    "Voice Orders command-mode foundation while retaining mouse control",
+    "V9.0.1 full-screen EXIT FULL / Esc / F11 hotfix retained"
   ],
   "limitations": [
-    "Research/prototype navigation display; not type-approved ECDIS",
-    "Autopilot V9.0 is simulation/interface only and sends no motor-controller or steering commands",
-    "LiDAR V9.0 layer is simulated until a physical sensor adapter is connected",
-    "AI Navigation V9.0 is advisory architecture only; autonomous decision/execution is not enabled",
-    "S-57 portrayal is not full IHO S-52 yet",
-    "S-63 decryption/licensing is not implemented",
-    "CM93 native decoding is not implemented"
+    "Training physics are simplified and not a certified ship-handling simulator",
+    "Training online maps are reference layers, not official ENC",
+    "Voice Orders currently includes UI/parser foundation; live microphone speech recognition requires microphone/STT integration",
+    "Autopilot remains simulation/calibration only with no motor-controller output"
   ]
 }
