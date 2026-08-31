@@ -1,8 +1,8 @@
 {
-  "version": "10.0.0",
+  "version": "10.1.0",
   "platform": "Raspberry Pi 3 / OpenPlotter",
-  "package": "DR_BOAT_V10_0_RPi3.zip",
-  "package_url": "https://raw.githubusercontent.com/DRBOAT/DRBOAT.update/main/DR_BOAT_V10_0_RPi3.zip",
-  "sha256": "019a049549424259a36ac535088d4344a5fb140d30781ba7156653153d64b03a",
-  "notes": "Pilot & Tug Master Training V10 foundation: simulator-only native vector base renderer; training start LAT 24.5472670 LON 54.3818479, heading 157.0 deg, FULL AHEAD on start; tugs staged astern before secure; prop-wash disabled; Bollard Pull wind/current inputs in knots; Command Center defaults HYBRID with no vessel auto-selected; application opens maximized; MEASURE and EBL/VRM toggle behavior; route draw finishes on double-click, route properties on double-click, and immediate right-click delete. Official berth/channel/buoy geometry remains pending authoritative coordinates and is not fabricated."
+  "package": "DR_BOAT_V10_1_RPi3.zip",
+  "package_url": "https://raw.githubusercontent.com/DRBOAT/DRBOAT.update/main/DR_BOAT_V10_1_RPi3.zip",
+  "sha256": "0022ee21f2a366b7310ac5a0bb0c90c2a0b5efc38424755424226698f11c3e8d",
+  "notes": "Mina Zayed simulator vector-map reconstruction replaces generic V10 geometry with detailed entrance/inner-port shoreline, breakwaters, quay faces, channel presentation and verified ZP19 reference. Native vector rendering stays sharp under zoom. Training start remains 24.5472670N 54.3818479E, HDG 157\u00b0, FULL AHEAD. Exact survey-grade berth and Z25/Z26/Z27/Z28 geometry is not claimed until authoritative coordinates are supplied."
 }
