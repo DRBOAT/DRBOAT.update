@@ -1,8 +1,8 @@
 {
-  "version": "10.2.0",
+  "version": "11.0.0",
   "platform": "Raspberry Pi 3 / OpenPlotter",
-  "package": "DR_BOAT_V10_2_RPi3.zip",
-  "package_url": "https://raw.githubusercontent.com/DRBOAT/DRBOAT.update/main/DR_BOAT_V10_2_RPi3.zip",
-  "sha256": "762c72b4705d06a52a3ece0cf4acd5b229068b4002af3a31e1ffa55f3b65bc94",
-  "notes": "DR POSITION CALCULATOR live dashboard inside DR BOAT AI Positioning System: dedicated button beside AUTO, live GNSS UTM own-ship, four editable fixed UTM targets with 500 m rebuild, live ranges/bearings/horizontal angles/distance matrix, manual two-pair horizontal-angle solver, true-heading HDT/KVH adapter, and STW in m/s from NMEA VHW/physical speed-log adapter. STW is never replaced by GNSS SOG when unavailable."
+  "package": "DR_BOAT_V11_0_RPi3.zip",
+  "package_url": "https://raw.githubusercontent.com/DRBOAT/DRBOAT.update/main/DR_BOAT_V11_0_RPi3.zip",
+  "sha256": "046485c60a0e65918a39914868995b263a20796da2915363e3a08b0916781384",
+  "notes": "DR Position Calculator dynamic-grid research update: calculated UTM + Lat/Lon mini-map, 500 m configurable local grids with automatic forward grid generation, persistent historical grids and calculated track, GNSS comparison/reference track, GNSS-exclusion test mode, session logging, and selectable speed source including ELM327-compatible OBD-II USB standard vehicle-speed PID 010D. Virtual grids preserve computational reference-frame continuity but do not independently correct absolute INS/dead-reckoning drift."
 }
