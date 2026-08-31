@@ -1,8 +1,8 @@
 {
-  "version": "11.0.0",
+  "version": "11.1.0",
   "platform": "Raspberry Pi 3 / OpenPlotter",
-  "package": "DR_BOAT_V11_0_RPi3.zip",
-  "package_url": "https://raw.githubusercontent.com/DRBOAT/DRBOAT.update/main/DR_BOAT_V11_0_RPi3.zip",
-  "sha256": "046485c60a0e65918a39914868995b263a20796da2915363e3a08b0916781384",
-  "notes": "DR Position Calculator dynamic-grid research update: calculated UTM + Lat/Lon mini-map, 500 m configurable local grids with automatic forward grid generation, persistent historical grids and calculated track, GNSS comparison/reference track, GNSS-exclusion test mode, session logging, and selectable speed source including ELM327-compatible OBD-II USB standard vehicle-speed PID 010D. Virtual grids preserve computational reference-frame continuity but do not independently correct absolute INS/dead-reckoning drift."
+  "package": "DR_BOAT_V11_1_RPi3.zip",
+  "package_url": "https://raw.githubusercontent.com/DRBOAT/DRBOAT.update/main/DR_BOAT_V11_1_RPi3.zip",
+  "sha256": "79ded7e7081c5189734a22355138b02aaf3692da50fb508db036e99e0166d5cd",
+  "notes": "DR Position Calculator grid-map display fix. The live UTM map is now kept in the centre of the dashboard between compact side panels on Raspberry Pi displays. It shows the active grid, every historical stored grid, the calculated DR track, optional GNSS reference track, current calculated vessel symbol, wheel zoom and drag pan. Dynamic 500 m grid creation, session logging, GNSS comparison and selectable speed sources from V11.0 are retained."
 }
