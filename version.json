@@ -1,8 +1,8 @@
 {
-  "version": "11.1.0",
+  "version": "11.2.0",
   "platform": "Raspberry Pi 3 / OpenPlotter",
-  "package": "DR_BOAT_V11_1_RPi3.zip",
-  "package_url": "https://raw.githubusercontent.com/DRBOAT/DRBOAT.update/main/DR_BOAT_V11_1_RPi3.zip",
-  "sha256": "79ded7e7081c5189734a22355138b02aaf3692da50fb508db036e99e0166d5cd",
-  "notes": "DR Position Calculator grid-map display fix. The live UTM map is now kept in the centre of the dashboard between compact side panels on Raspberry Pi displays. It shows the active grid, every historical stored grid, the calculated DR track, optional GNSS reference track, current calculated vessel symbol, wheel zoom and drag pan. Dynamic 500 m grid creation, session logging, GNSS comparison and selectable speed sources from V11.0 are retained."
+  "package": "DR_BOAT_V11_2_RPi3.zip",
+  "package_url": "https://raw.githubusercontent.com/DRBOAT/DRBOAT.update/main/DR_BOAT_V11_2_RPi3.zip",
+  "sha256": "e48c4a84a57280e3578d73dc56f298511bc37549ae6c39e9edec0d29d32a2e23",
+  "notes": "DR Position Calculator grid visualization update: four reference points around vessel with radial angle lines; historical grids and DR track retained; pan/zoom retained."
 }
