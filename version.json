@@ -1,8 +1,17 @@
 {
-  "version": "11.2.0",
+  "version": "11.3.0",
   "platform": "Raspberry Pi 3 / OpenPlotter",
-  "package": "DR_BOAT_V11_2_RPi3.zip",
-  "package_url": "https://raw.githubusercontent.com/DRBOAT/DRBOAT.update/main/DR_BOAT_V11_2_RPi3.zip",
-  "sha256": "e48c4a84a57280e3578d73dc56f298511bc37549ae6c39e9edec0d29d32a2e23",
-  "notes": "DR Position Calculator grid visualization update: four reference points around vessel with radial angle lines; historical grids and DR track retained; pan/zoom retained."
+  "package": "DR_BOAT_V11_3_RPi3.zip",
+  "package_url": "https://raw.githubusercontent.com/DRBOAT/DRBOAT.update/main/DR_BOAT_V11_3_RPi3.zip",
+  "sha256": "a953e3cd7e17d9902d93efd32d113f3adabff98aa7291f81807ac0ccef798c86",
+  "notes": [
+    "Adds live Heading and Speed status; speed is always displayed in m/s and may come from NMEA STW/Speed Log, OBD-II USB Vehicle Speed, or Manual Test Speed.",
+    "Adds three simultaneous position cards: DRP (Doctor Boat Position Calculator), raw GNSS, and Fusion Sensor position.",
+    "Fusion position remains WAITING until a real fusion-position input is supplied; no synthetic fusion value is fabricated.",
+    "Adds automatic GNSS integrity gate for DRP: raw GNSS remains logged/displayed while unreasonable jumps are rejected from DRP.",
+    "Hard GNSS jump protection at >500 m plus speed/time plausibility checking.",
+    "At near-zero measured speed, normal GNSS wander is prevented from moving DRP.",
+    "When GNSS is rejected/lost, DRP continues from last accepted position using selected speed, heading and elapsed time.",
+    "Retains numbered dynamic grids, four fixed reference points per grid, angle/radial visualization, historical grids, track, pan/zoom and session logging."
+  ]
 }
