@@ -1,8 +1,8 @@
 {
-  "version": "10.1.0",
+  "version": "10.2.0",
   "platform": "Raspberry Pi 3 / OpenPlotter",
-  "package": "DR_BOAT_V10_1_RPi3.zip",
-  "package_url": "https://raw.githubusercontent.com/DRBOAT/DRBOAT.update/main/DR_BOAT_V10_1_RPi3.zip",
-  "sha256": "0022ee21f2a366b7310ac5a0bb0c90c2a0b5efc38424755424226698f11c3e8d",
-  "notes": "Mina Zayed simulator vector-map reconstruction replaces generic V10 geometry with detailed entrance/inner-port shoreline, breakwaters, quay faces, channel presentation and verified ZP19 reference. Native vector rendering stays sharp under zoom. Training start remains 24.5472670N 54.3818479E, HDG 157\u00b0, FULL AHEAD. Exact survey-grade berth and Z25/Z26/Z27/Z28 geometry is not claimed until authoritative coordinates are supplied."
+  "package": "DR_BOAT_V10_2_RPi3.zip",
+  "package_url": "https://raw.githubusercontent.com/DRBOAT/DRBOAT.update/main/DR_BOAT_V10_2_RPi3.zip",
+  "sha256": "762c72b4705d06a52a3ece0cf4acd5b229068b4002af3a31e1ffa55f3b65bc94",
+  "notes": "DR POSITION CALCULATOR live dashboard inside DR BOAT AI Positioning System: dedicated button beside AUTO, live GNSS UTM own-ship, four editable fixed UTM targets with 500 m rebuild, live ranges/bearings/horizontal angles/distance matrix, manual two-pair horizontal-angle solver, true-heading HDT/KVH adapter, and STW in m/s from NMEA VHW/physical speed-log adapter. STW is never replaced by GNSS SOG when unavailable."
 }
