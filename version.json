@@ -1,15 +1,14 @@
 {
-  "version": "11.4.0",
+  "version": "11.5.0",
   "platform": "Raspberry Pi 3 / OpenPlotter",
-  "package": "DR_BOAT_V11_4_RPi3.zip",
-  "package_url": "https://raw.githubusercontent.com/DRBOAT/DRBOAT.update/main/DR_BOAT_V11_4_RPi3.zip",
-  "sha256": "be74cd3ea89541e0fce778a3cbe4431fcaf513fb8219c9715276658dddb17a84",
+  "package": "DR_BOAT_V11_5_RPi3.zip",
+  "package_url": "https://raw.githubusercontent.com/DRBOAT/DRBOAT.update/main/DR_BOAT_V11_5_RPi3.zip",
+  "sha256": "43119d343f093eb973746127fc4bc5774dca21f720faadce26a7cac799b780a6",
   "notes": [
-    "Retains V11.3 DRP, GNSS raw and Fusion Sensor independent position cards and dynamic four-point grid history.",
-    "Adds explicit DRP-GNSS, DRP-Fusion and GNSS-Fusion distance comparison when inputs are available.",
-    "Retains NMEA STW/Speed Log, OBD-II USB Vehicle Speed and Manual Test Speed sources in m/s.",
-    "Preserves existing VECTOR, SATELLITE, HYBRID and MARINE map modes unchanged.",
-    "Adds STREET, MARINE + STREET, MARINE + SATELLITE and MARINE + HYBRID display modes using the existing tile framework.",
-    "Street search/road routing UI is reserved for the next routing integration; no fake routing result is generated in this build."
+    "Adds two selectable DRP initialization methods: Insert Position on Chart or First Position from GNSS.",
+    "After initialization, DRP is propagated only from Heading + Speed + delta time; GNSS remains an independent reference/comparison source.",
+    "Adds resizable live SHOW MAP windows for DRP Calculated Position and GNSS Position with selectable map layers.",
+    "Retains dynamic 500 m four-reference-point grids and pre-creates the next fixed grid ahead before leaving the active grid.",
+    "Retains live Heading, GNSS, Fusion and OBD/Log Speed status plus DRP/GNSS/Fusion coordinate comparison."
   ]
 }
