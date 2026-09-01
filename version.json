@@ -1,14 +1,15 @@
 {
-  "version": "11.5.0",
+  "version": "11.6.0",
   "platform": "Raspberry Pi 3 / OpenPlotter",
-  "package": "DR_BOAT_V11_5_RPi3.zip",
-  "package_url": "https://raw.githubusercontent.com/DRBOAT/DRBOAT.update/main/DR_BOAT_V11_5_RPi3.zip",
-  "sha256": "43119d343f093eb973746127fc4bc5774dca21f720faadce26a7cac799b780a6",
+  "package": "DR_BOAT_V11_6_RPi3.zip",
+  "package_url": "https://raw.githubusercontent.com/DRBOAT/DRBOAT.update/main/DR_BOAT_V11_6_RPi3.zip",
+  "sha256": "c23a2e1f14564e8f1ea5b4b55f4f2a556e568f17a29760b9ba7142a272483be3",
   "notes": [
-    "Adds two selectable DRP initialization methods: Insert Position on Chart or First Position from GNSS.",
-    "After initialization, DRP is propagated only from Heading + Speed + delta time; GNSS remains an independent reference/comparison source.",
-    "Adds resizable live SHOW MAP windows for DRP Calculated Position and GNSS Position with selectable map layers.",
-    "Retains dynamic 500 m four-reference-point grids and pre-creates the next fixed grid ahead before leaving the active grid.",
-    "Retains live Heading, GNSS, Fusion and OBD/Log Speed status plus DRP/GNSS/Fusion coordinate comparison."
+    "Freezes DRP after its chosen first position: GNSS position never corrects DRP after initialization.",
+    "DRP motion uses only the selected heading, selected speed and delta time.",
+    "Adds selectable heading sources: IMU/NMEA HDT, GNSS heading/COG, Manual Test Heading.",
+    "Adds selectable speed sources: NMEA STW/Speed Log, OBD-II USB Vehicle Speed, GNSS SOG, Manual Test Speed.",
+    "Pre-creates the next fixed four-target reference frame 50 m before the active 500 m reference radius and stores all previous frames.",
+    "Renames the main result to DRP CALCULATED POSITION and adds directly visible DRP/GNSS Show Map controls and GNSS coordinates."
   ]
 }
