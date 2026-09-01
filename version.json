@@ -2,6 +2,7 @@
   "version": "11.4.0",
   "platform": "Raspberry Pi 3 / OpenPlotter",
   "package": "DR_BOAT_V11_4_RPi3.zip",
+  "package_url": "https://raw.githubusercontent.com/DRBOAT/DRBOAT.update/main/DR_BOAT_V11_4_RPi3.zip",
   "sha256": "be74cd3ea89541e0fce778a3cbe4431fcaf513fb8219c9715276658dddb17a84",
   "notes": [
     "Retains V11.3 DRP, GNSS raw and Fusion Sensor independent position cards and dynamic four-point grid history.",
