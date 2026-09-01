@@ -1,12 +1,14 @@
 {
-  "version": "11.7.0",
+  "version": "11.8.0",
   "platform": "Raspberry Pi 3 / OpenPlotter",
-  "package": "DR_BOAT_V11_7_RPi3.zip",
-  "package_url": "https://raw.githubusercontent.com/DRBOAT/DRBOAT.update/main/DR_BOAT_V11_7_RPi3.zip",
+  "package": "DR_BOAT_V11_8_RPi3.zip",
+  "package_url": "https://raw.githubusercontent.com/DRBOAT/DRBOAT.update/main/DR_BOAT_V11_8_RPi3.zip",
+  "sha256": "29bf57abe613a649fa83bb661b8e70431deeff2b322031a991178138a09f72e4",
   "notes": [
-    "Adds mouse-wheel vertical scrolling to the DR Position Calculator.",
-    "Mouse wheel over the DR map remains dedicated to map zoom.",
-    "Allows access to START METHOD and SPEED SOURCE on smaller displays.",
-    "Retains V11.6 DRP algorithm and dynamic grid logic unchanged."
+    "Restores the stable V11.6 main DR Position Calculator layout.",
+    "Adds a compact vertical scroll area only for the lower controls and status sections on small Raspberry Pi displays.",
+    "Keeps mouse-wheel zoom on the DR grid map unchanged.",
+    "Renames and reduces the map buttons to DRP SHOW ON MAP and GNSS SHOW ON MAP.",
+    "Retains the V11.6 frozen DRP algorithm and dynamic 500 m grid logic unchanged."
   ]
 }
